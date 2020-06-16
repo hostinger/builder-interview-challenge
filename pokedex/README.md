@@ -19,7 +19,7 @@ Here, take these Pokeballs – `https://pokeapi.co/api/v2/pokemon?limit=10`. 10 
 
 Now that you have pokemon data, you should make a list of their names and images.
 
-There are no images in the response you got? Well, each pokemon object should have an url which will give you more data.
+There are no images in the response you got? Well, each pokemon object should have an url which will give you more data. Pokemon image is in `sprites.front_default`
 
 ## Quest 3 - Choose your favorite pokemon
 
@@ -55,6 +55,6 @@ This pokedex is now yours - extend its functionality, modify the styles, _person
 
 ## BONUS Quest - Show it to the world
 
-Deploy this project, make sure it is secured with SSL, show off your inner DevOps.
+Deploy this project, make sure it is secured with SSL, set up CI/CD show off your inner DevOps.
 
 ## [Congratulations](https://www.youtube.com/watch?v=oyFQVZ2h0V8)

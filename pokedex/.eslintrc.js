@@ -4,7 +4,6 @@ module.exports = {
 		browser: true,
 		es6: true,
 		mocha: true,
-		node: true,
 	},
 	extends: [
 		// Enables vue-specific rules
@@ -13,6 +12,9 @@ module.exports = {
 		// Ensures good javascript practices
 		// https://github.com/airbnb/javascript
 		'@vue/airbnb',
+		// Disables no-unused-expressions for chai assertions
+		// e.g. expect(true).to.be.true
+		'plugin:chai-friendly/recommended',
 	],
 	rules: {
 		'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
@@ -27,15 +29,4 @@ module.exports = {
 	parserOptions: {
 		parser: 'babel-eslint',
 	},
-	overrides: [
-		{
-			files: [
-				'**/__tests__/*.{j,t}s?(x)',
-				'**/tests/unit/**/*.spec.{j,t}s?(x)',
-			],
-			env: {
-				mocha: true,
-			},
-		},
-	],
 };
