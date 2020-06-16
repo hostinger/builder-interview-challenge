@@ -9,28 +9,28 @@
 
 <style>
 body {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  background-color: #dc6464;
-  color: #eee;
-  margin: 0;
-  padding: 20px;
+	padding: 20px;
+	margin: 0;
+	font-family: "Avenir", Helvetica, Arial, sans-serif;
+	color: #eee;
+	background-color: #dc6464;
 }
 
 h2 {
-  margin: 0;
+	margin: 0;
 }
 
 a {
-  color: #eee;
-  text-decoration: none;
+	color: #eee;
+	text-decoration: none;
 }
 
 img {
-  display: block;
-  width: 100%;
+	display: block;
+	width: 100%;
 }
 
 .title {
-  text-align: center;
+	text-align: center;
 }
 </style>
