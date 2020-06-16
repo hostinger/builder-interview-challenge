@@ -1,0 +1,53 @@
+{
+	"name": "zyro-pokedex",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"start": "npm run serve",
+		"serve": "vue-cli-service serve",
+		"build": "vue-cli-service build",
+		"test:unit": "vue-cli-service test:unit",
+		"test:e2e": "vue-cli-service test:e2e",
+		"lint": "vue-cli-service lint",
+		"lint:style": "vue-cli-service lint:style"
+	},
+	"dependencies": {
+		"core-js": "^3.6.5",
+		"vue": "^2.6.11",
+		"vue-router": "^3.2.0"
+	},
+	"devDependencies": {
+		"@ascendancyy/vue-cli-plugin-stylelint": "^1.1.2",
+		"@vue/cli-plugin-babel": "~4.4.0",
+		"@vue/cli-plugin-e2e-cypress": "~4.4.0",
+		"@vue/cli-plugin-eslint": "~4.4.0",
+		"@vue/cli-plugin-router": "~4.4.0",
+		"@vue/cli-plugin-unit-mocha": "~4.4.0",
+		"@vue/cli-service": "~4.4.0",
+		"@vue/eslint-config-airbnb": "^5.0.2",
+		"@vue/test-utils": "^1.0.3",
+		"babel-eslint": "^10.1.0",
+		"chai": "^4.1.2",
+		"eslint": "^6.7.2",
+		"eslint-plugin-import": "^2.20.2",
+		"eslint-plugin-vue": "^6.2.2",
+		"lint-staged": "^9.5.0",
+		"sass": "^1.26.5",
+		"sass-loader": "^8.0.2",
+		"stylelint": "^13.6.0",
+		"stylelint-config-recess-order": "^2.0.4",
+		"stylelint-config-standard": "^20.0.0",
+		"vue-template-compiler": "^2.6.11"
+	},
+	"gitHooks": {
+		"pre-commit": "lint-staged"
+	},
+	"lint-staged": {
+		"*.{js,vue}": [
+			"cross-env NODE_ENV=production vue-cli-service lint --max-warnings=0"
+		],
+		"*.{vue,htm,html,css,sss,less,scss}": [
+			"cross-env NODE_ENV=production vue-cli-service lint:style --max-warnings=0"
+		]
+	}
+}

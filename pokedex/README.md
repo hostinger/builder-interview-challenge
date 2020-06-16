@@ -1,0 +1,60 @@
+# Pokedex challenge
+
+Let's catch 'em all!
+
+## Project setup
+```
+# Install dependencies
+npm install
+
+# Start in development mode
+npm start
+```
+
+## Quest 1 - Fetch pokemon data
+
+Here, take these Pokeballs – `https://pokeapi.co/api/v2/pokemon?limit=10`. 10 Pokemon should be enough to get started on your adventure. First objective – get data from this URL.
+
+## Quest 2 - List your pokemon
+
+Now that you have pokemon data, you should make a list of their names and images.
+
+There are no images in the response you got? Well, each pokemon object should have an url which will give you more data.
+
+## Quest 3 - Choose your favorite pokemon
+
+I know that you have a favorite pokemon. Your pokedex should have the ability to mark your favorite pokemon with a star.
+
+## Quest 4 - Get to know your pokemon
+
+Hey, a pokemon is more than just an image and a name! They also have _stats_!
+
+Each pokemon card should link to its own page. Display pokemon types ordered by `type.slot` property. Additionally, display pokemon stats in a table.
+
+### BONUS Question
+
+How would you structure the app to have the ability to favorite a pokemon from inside the `pokemonInfo` page too?
+
+## Quest 5 - Searching for the special one
+
+Once you have more pokemon it will be difficult to find the ones you need. Implement a simple search in your pokedex.
+
+### BONUS Objective
+
+Make a toggle button to show only your favorite pokemon. Make sure this plays nice with search!
+
+## BONUS Quest - You gotta ca(t)che them all!
+
+You have traveled far and wide and caught ALL of the pokemon.
+
+Modify your request URL and make your pokedex show all of the pokemon. This may cause some performace problems, feel free to fix that.
+
+## BONUS Quest - Show your creativity
+
+This pokedex is now yours - extend its functionality, modify the styles, _personalize_ it as much as you want and get some bonus points for that.
+
+## BONUS Quest - Show it to the world
+
+Deploy this project, make sure it is secured with SSL, show off your inner DevOps.
+
+## [Congratulations](https://www.youtube.com/watch?v=oyFQVZ2h0V8)
