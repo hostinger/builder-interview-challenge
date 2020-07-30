@@ -3,7 +3,7 @@
 Let's catch 'em all!
 
 ## Project setup
-```
+```sh
 # Install dependencies
 npm install
 
