@@ -20,7 +20,7 @@ But what if the someone linked https://zyro.com/preview/modernart in their blog?
 
 ## Input
 
-Here's the IDs we need to update:
+Here are the IDs we need to update:
 
 | old ID | new ID |
 | --- | --- |
