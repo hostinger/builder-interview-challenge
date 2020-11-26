@@ -24,41 +24,22 @@ Here's the IDs we need to update:
 
 | old ID | new ID |
 | --- | --- |
-| massage | rebekah |
 | bakery | sugaro |
 | fashion | june |
 | wedding | kenzie |
-| petcare | portman |
-| creative | proxima |
 | Redfern | redfern |
 | startup | inves |
-| photography | freya |
-| bedandbreakfast | zaragoza |
-| donno | don |
 | modernart | ayomide |
-| product | rida |
-| craftsmanship | carpenter |
-| eventgrid | marian |
-| eventconference | arroyo |
 
 Oh, by the way, https://zyro.com supports multiple locales, so you'll need to take care of redirects for each locale too.
 
 | locale ID |
 | --- |
-| en |
-| fr |
+| en (default) |
 | de |
-| id |
-| it |
-| br |
-| pt |
 | ru |
 | es |
 | mx |
-| vn |
-| tr |
-| nl |
-| pl |
 | lt |
 | in |
 
@@ -78,16 +59,16 @@ So in this case, your output should look something like this:
 {
 	"/preview/modernart": "/preview/ayomide",
 	"/fr/preview/modernart": "/fr/preview/ayomide",
-	// ...
+	...
 	"/preview/photography": "/preview/freya",
 	"/de/preview/photography": "/de/preview/freya"
-	// ...
+	...
 }
 ```
 
-As you can see, the `en` locale is default one, so it is not prepended to the path.
+As you can see, since `en` locale is default one, it is not prepended to the path.
 
 ## Requirements
 
-- Use Javascript or Typescript to generate the redirect paths. Write the output to .json file.
+- Use Javascript or Typescript to generate the redirect paths. Write the output to .json file indented with 2 spaces.
 - (Optional) Write tests for your function(s).
