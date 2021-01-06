@@ -11,6 +11,25 @@ npm install
 npm start
 ```
 
+## Briefing
+Project is using Vue 2, Vue Router.
+
+### Files
+`src/App.vue` is the main Vue component, contains `<h1>` and `<router-view`.
+
+`src/router.js` defines 2 routes – `/` (renders `src/pages/Index.vue`) and `/pokemon/:name` (renders `src/pages/PokemonInfo.vue`).
+
+`src/pages/Index.vue` renders `src/components/PokemonList.vue`.
+
+Quest 1, 2, and 3 deals with `PokemonList` component mostly.
+
+### Tips
+Feel free to use any additional libraries.
+
+There are some bugs left on purpose, see if you can spot them.
+
+Documenting your thoughts/solutions/considerations in `README.md` and code comments is highly encouraged.
+
 ## Quest 1 - Fetch pokemon data
 
 Here, take these Pokeballs – `https://pokeapi.co/api/v2/pokemon?limit=10`. 10 Pokemon should be enough to get started on your adventure. First objective – get the data from this URL ande `console.log` it.
@@ -37,7 +56,7 @@ Display pokemon types ordered by `type.slot` property. Additionally, display pok
 
 ### Question
 
-Let's say you need the **favorite** button inside the pokemonInfo too. How would you structure the app to solve this problem?
+Let's say you need the **favorite** button inside the `pokemonInfo` component too. How would you structure the app to solve this problem?
 
 ## Quest 5 - Searching for the special one
 
@@ -59,6 +78,6 @@ This pokedex is now yours - extend its functionality, modify the styles, _person
 
 ## Quest 9 (optional) - Show it to the world
 
-Deploy this project, make sure it is secured with SSL, set up CI/CD show off your inner DevOps.
+Deploy this project, make sure it is secured with SSL, set up CI/CD show off your DevOps knowledge.
 
 ## [Congratulations](https://www.youtube.com/watch?v=oyFQVZ2h0V8)
