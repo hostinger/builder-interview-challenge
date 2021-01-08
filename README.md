@@ -1,8 +1,12 @@
 # Zyro interview challenges
 
-## Pokedex
+## Pokedex Vue
 
 Challenge is built on Vue, simulating a simplified version of a real-world application. Tests knowledge of Javascript, data flow patterns, asynchronous operations.
+
+## Pokedex React
+
+Same as Pokedex Vue, rewritten for React.
 
 ## Redirects
 

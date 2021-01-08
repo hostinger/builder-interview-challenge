@@ -14,19 +14,17 @@ npm start
 
 ## Briefing
 
-Project is using Vue 2 and Vue Router.
+Project is using React and React Router.
 
 ### Files
 
-`src/App.vue` is the main Vue component, it contains application title and `<router-view>`.
+`src/App.js` is the main component, it contains application title and React Router `<Switch>`. It defines 2 routes – `/` (renders `src/pages/Index.js`) and `/pokemon/:name` (renders `src/pages/Pokemon.js`).
 
-`src/router.js` defines 2 routes – `/` (renders `src/pages/Index.vue`) and `/pokemon/:name` (renders `src/pages/Pokemon.vue`).
-
-`src/pages/Index.vue` renders `src/components/PokemonList.vue`.
+`src/pages/Index.js` renders `src/components/PokemonList.js`.
 
 Quest 1, 2, and 3 deals with `<PokemonList>` component mostly.
 
-`src/pages/Pokemon.vue` is not necessary until Quest 4
+`src/pages/Pokemon.js` is not necessary until Quest 4
 
 ### Tips
 
