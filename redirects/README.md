@@ -1,6 +1,7 @@
 # Redirects challenge
 
 ## Project setup
+
 ```sh
 # Install dependencies
 npm install
@@ -22,26 +23,26 @@ But what if the someone linked https://zyro.com/preview/modernart in their blog?
 
 Here are the IDs we need to update:
 
-| old ID | new ID |
-| --- | --- |
-| bakery | sugaro |
-| fashion | june |
-| wedding | kenzie |
-| Redfern | redfern |
-| startup | inves |
+| old ID    | new ID  |
+| --------- | ------- |
+| bakery    | sugaro  |
+| fashion   | june    |
+| wedding   | kenzie  |
+| Redfern   | redfern |
+| startup   | inves   |
 | modernart | ayomide |
 
 Oh, by the way, https://zyro.com supports multiple locales, so you'll need to take care of redirects for each locale too.
 
-| locale ID |
-| --- |
+| locale ID    |
+| ------------ |
 | en (default) |
-| de |
-| ru |
-| es |
-| mx |
-| lt |
-| in |
+| de           |
+| ru           |
+| es           |
+| mx           |
+| lt           |
+| in           |
 
 ## Output
 
@@ -71,4 +72,5 @@ As you can see, since `en` locale is default one, it is not prepended to the pat
 ## Requirements
 
 - Use Javascript or Typescript to generate the redirect paths. Write the output to .json file indented with 2 spaces.
+- Documenting your thoughts/solutions/considerations in `README.md` and code comments is highly encouraged.
 - (Optional) Write tests for your function(s).
