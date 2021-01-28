@@ -34,7 +34,7 @@ Feel free to use any additional libraries.
 
 There are some bugs left on purpose, see if you can spot them.
 
-Documenting your thoughts/solutions/considerations in `README.md` and code comments is highly encouraged.
+Documenting your thoughts/solutions/considerations in `README.md` and code comments is **highly encouraged**.
 
 ## Quest 1 - Fetch pokemon data
 
@@ -64,25 +64,11 @@ Display pokemon types ordered by `type.slot` property. Additionally, display pok
 
 Let's say you need the **favorite** button inside the `<Pokemon>` component too. How would you structure the app to solve this problem?
 
-## Quest 5 - Searching for the special one
-
-Once you have more pokemon it will be difficult to find the ones you need. Implement a simple search in your pokedex.
-
-## Quest 6 (optional)
-
-Make a toggle button to show only your favorite pokemon. Make sure this works well with search.
-
-## Quest 7 (optional) - You gotta ca(t)che them all!
-
-You have traveled far and wide and caught ALL of the pokemon.
-
-Modify your request URL and make your pokedex show all of the pokemon. This may cause some performace problems, feel free to fix that.
-
-## Quest 8 (optional) - Show your creativity
+## Quest 5 (optional) - Show your creativity
 
 This pokedex is now yours - extend its functionality, modify the styles, _personalize_ it as much as you want and get some bonus points for that.
 
-## Quest 9 (optional) - Show it to the world
+## Quest 6 (optional) - Show it to the world
 
 Deploy this project, make sure it is secured with SSL, set up CI/CD show off your DevOps knowledge.
 
