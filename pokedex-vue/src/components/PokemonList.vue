@@ -1,10 +1,7 @@
 <template>
 	<div class="list">
-		<router-link
-			to="/pokemon/"
-			class="card"
-		>
-			<img class="image">
+		<router-link to="/pokemon/" class="card">
+			<img class="image" />
 			<h2 class="name" />
 			<!-- <svg
 				viewBox="0 0 300 275"
@@ -30,7 +27,6 @@ export default {
 			allPokemon: null,
 		};
 	},
-	init() {},
 };
 </script>
 
@@ -50,8 +46,7 @@ export default {
 	align-items: center;
 	background-color: #dc6464;
 	border-radius: 32px;
-	box-shadow:
-		6px 6px 10px rgba(160, 73, 73, 0.5),
+	box-shadow: 6px 6px 10px rgba(160, 73, 73, 0.5),
 		-6px -6px 10px rgba(230, 146, 146, 0.5);
 }
 
@@ -71,13 +66,11 @@ export default {
 	padding: 10px;
 	margin-bottom: 20px;
 	border-radius: 40px;
-	box-shadow:
-		6px 6px 10px rgba(160, 73, 73, 0.5),
+	box-shadow: 6px 6px 10px rgba(160, 73, 73, 0.5),
 		-6px -6px 10px rgba(230, 146, 146, 0.5);
 
 	&:active {
-		box-shadow:
-			3px 3px 7px rgba(160, 73, 73, 0.5) inset,
+		box-shadow: 3px 3px 7px rgba(160, 73, 73, 0.5) inset,
 			-3px -3px 7px rgba(230, 146, 146, 0.5) inset;
 	}
 }
