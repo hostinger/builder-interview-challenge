@@ -10,8 +10,8 @@
 				class="star"
 			>
 				<polygon
-					:fill="pokemon.favorite ? '#eee' : 'none'"
-					stroke="#eee"
+					:fill="pokemon.favorite ? '#fff' : 'none'"
+					stroke="#fff"
 					stroke-width="20"
 					points="150,25 179,111 269,111 197,165  223,251 150,200 77,251 103,165 31,111 121,111"
 				/>
@@ -44,10 +44,9 @@ export default {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-color: #dc6464;
-	border-radius: 32px;
-	box-shadow: 6px 6px 10px rgba(160, 73, 73, 0.5),
-		-6px -6px 10px rgba(230, 146, 146, 0.5);
+	background-color: #fff;
+	border-radius: 7px;
+	box-shadow: 0 4px 16px rgb(0 0 0 / 20%);
 }
 
 .image {
@@ -56,22 +55,28 @@ export default {
 
 .name {
 	margin-bottom: 10px;
-	color: #eee;
+	color: #000;
 	text-align: center;
 	text-transform: capitalize;
+	font-weight: 500;
 }
 
 .star {
 	width: 40px;
+	height: 40px;
 	padding: 10px;
 	margin-bottom: 20px;
 	border-radius: 40px;
-	box-shadow: 6px 6px 10px rgba(160, 73, 73, 0.5),
-		-6px -6px 10px rgba(230, 146, 146, 0.5);
+	cursor: pointer;
+	background-color: #fa2356;
+	box-shadow: 0 4px 16px rgb(0 0 0 / 20%);
+	transition: background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 
+	&:hover {
+		background-color: #d21d48;
+	}
 	&:active {
-		box-shadow: 3px 3px 7px rgba(160, 73, 73, 0.5) inset,
-			-3px -3px 7px rgba(230, 146, 146, 0.5) inset;
+		background-color: #fa2356;
 	}
 }
 </style>
