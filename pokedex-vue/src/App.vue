@@ -3,9 +3,19 @@
 		<h1 class="title">
 			Pokedex
 		</h1>
-		<router-view />
+		<pokemon-list />
 	</div>
 </template>
+
+<script>
+import PokemonList from "@/components/PokemonList.vue";
+
+export default {
+	components: {
+		PokemonList,
+	},
+};
+</script>
 
 <style>
 body {
