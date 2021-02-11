@@ -34,4 +34,8 @@ There are no images in the response you got? Well, each pokemon object should ha
 
 I know that you have a favorite pokemon. Your pokedex should have the ability to mark your favorite pokemon with a star. Star svg is commented out in `<PokemonList>`. Star should be filled when pokemon is favorited.
 
+## Quest 4 - Show it to the world
+
+Deploy this project. Optionally, set up SSL, CI/CD to show off your DevOps knowledge.
+
 ## [Congratulations](https://www.youtube.com/watch?v=oyFQVZ2h0V8)
