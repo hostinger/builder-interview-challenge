@@ -14,25 +14,9 @@ npm start
 
 ## Briefing
 
-Project is using React and React Router.
-
-### Files
-
-`src/App.js` is the main component, it contains application title and React Router `<Switch>`. It defines 2 routes – `/` (renders `src/pages/Index.js`) and `/pokemon/:name` (renders `src/pages/Pokemon.js`).
-
-`src/pages/Index.js` renders `src/components/PokemonList.js`.
-
-Quest 1, 2, and 3 deals with `<PokemonList>` component mostly.
-
-`src/pages/Pokemon.js` is not necessary until Quest 4
-
-### Tips
+Project is using React.
 
 Feel free to use any additional libraries.
-
-There are some bugs left on purpose, see if you can spot them.
-
-Documenting your thoughts/solutions/considerations in `README.md` and code comments is highly encouraged.
 
 ## Quest 1 - Fetch pokemon data
 
@@ -44,44 +28,14 @@ Now that you have pokemon data, you should make a list of their names and images
 
 There are no images in the response you got? Well, each pokemon object should have an url which will give you more data. Pokemon image is in `sprites.front_default`.
 
-The html/styles are already prepared for you in `<PokemonList>` component, just connect the data.
+**The html/styles are already prepared in `<PokemonList>` component, just loop and connect the data.**
 
 ## Quest 3 - Choose your favorite pokemon
 
 I know that you have a favorite pokemon. Your pokedex should have the ability to mark your favorite pokemon with a star. Star svg is commented out in `<PokemonList>`. Star should be filled when pokemon is favorited.
 
-## Quest 4 - Get to know your pokemon
+## Quest 4 - Show it to the world
 
-Hey, a pokemon is more than just an image and a name! They also have _stats_!
-
-Each pokemon card should link to its own page.
-
-Display pokemon types ordered by `type.slot` property. Additionally, display pokemon stats in a table.
-
-### Question
-
-Let's say you need the **favorite** button inside the `<Pokemon>` component too. How would you structure the app to solve this problem?
-
-## Quest 5 - Searching for the special one
-
-Once you have more pokemon it will be difficult to find the ones you need. Implement a simple search in your pokedex.
-
-## Quest 6 (optional)
-
-Make a toggle button to show only your favorite pokemon. Make sure this works well with search.
-
-## Quest 7 (optional) - You gotta ca(t)che them all!
-
-You have traveled far and wide and caught ALL of the pokemon.
-
-Modify your request URL and make your pokedex show all of the pokemon. This may cause some performace problems, feel free to fix that.
-
-## Quest 8 (optional) - Show your creativity
-
-This pokedex is now yours - extend its functionality, modify the styles, _personalize_ it as much as you want and get some bonus points for that.
-
-## Quest 9 (optional) - Show it to the world
-
-Deploy this project, make sure it is secured with SSL, set up CI/CD show off your DevOps knowledge.
+Deploy this project. Optionally, set up SSL, CI/CD to show off your DevOps knowledge.
 
 ## [Congratulations](https://www.youtube.com/watch?v=oyFQVZ2h0V8)
