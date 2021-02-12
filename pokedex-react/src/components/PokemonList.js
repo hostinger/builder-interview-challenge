@@ -2,7 +2,7 @@ import { useState } from "react";
 import styles from "./PokemonList.module.css";
 
 const PokemonList = () => {
-	const allPokemon = useState(null);
+	const [allPokemon, setAllPokemon] = useState(null);
 
 	return (
 		<div className={styles.list}>
