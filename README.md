@@ -2,11 +2,15 @@
 
 ## Pokedex Vue
 
-Challenge is built on Vue, simulating a simplified version of a real-world application. Tests knowledge of Javascript, data flow patterns, asynchronous operations.
+Challenge is built on Vue 2, simulating a simplified version of a real-world application. Tests knowledge of Javascript, data flow patterns, asynchronous operations.
 
 ## Pokedex React
 
 Same as Pokedex Vue, rewritten for React.
+
+## Pokedex Vite
+
+Same as Pokedex Vue, but uses Vue 3 and Vite
 
 ## Redirects
 
