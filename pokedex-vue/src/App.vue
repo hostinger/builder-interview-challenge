@@ -3,17 +3,26 @@
 		<h1 class="title">
 			Pokedex
 		</h1>
-		<router-view />
+		<pokemon-list />
 	</div>
 </template>
+
+<script>
+import PokemonList from "@/components/PokemonList.vue";
+
+export default {
+	components: {
+		PokemonList,
+	},
+};
+</script>
 
 <style>
 body {
 	padding: 20px;
 	margin: 0;
-	font-family: "Avenir", Helvetica, Arial, sans-serif;
-	color: #eee;
-	background-color: #dc6464;
+	font-family: "Heebo", Helvetica, Arial, sans-serif;
+	background-color: #1f2223;
 }
 
 h2 {
@@ -21,7 +30,6 @@ h2 {
 }
 
 a {
-	color: #eee;
 	text-decoration: none;
 }
 
@@ -32,5 +40,8 @@ img {
 
 .title {
 	text-align: center;
+	color: #fff;
+	font-weight: 300;
+	font-size: 58px;
 }
 </style>
