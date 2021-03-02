@@ -20,7 +20,7 @@ Feel free to use any additional libraries.
 
 ## Quest 1 - Fetch pokemon data
 
-Here, take these Pokeballs – `https://pokeapi.co/api/v2/pokemon?limit=10`. 10 Pokemon should be enough to get started on your adventure. First objective – get the data from this URL ande `console.log` it.
+Here, take these Pokeballs – `https://pokeapi.co/api/v2/pokemon?limit=10`. 10 Pokemon should be enough to get started on your adventure. First objective – get the data from this URL and `console.log` it.
 
 ## Quest 2 - List your pokemon
 
