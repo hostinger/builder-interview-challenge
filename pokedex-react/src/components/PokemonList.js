@@ -16,9 +16,9 @@ const PokemonList = () => {
 				className={styles.star}
 			>
 				<polygon
-					fill={pokemon.favorite ? "#fff" : "none"}
+					fill="none"
 					stroke="#fff"
-					stroke-width="20"
+					strokeWidth="20"
 					points="150,25 179,111 269,111 197,165  223,251 150,200 77,251 103,165 31,111 121,111"
 				/>
 			</svg> */}
