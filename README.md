@@ -10,8 +10,12 @@ Same as Pokedex Vue, rewritten for React.
 
 ## Pokedex Vite
 
-Same as Pokedex Vue, but uses Vue 3 and Vite
+Same as Pokedex Vue, but uses Vue 3 and Vite.
 
 ## Redirects
 
 Create a Node.js application using Typescript or Javascript which generates 301 redirect path list. Based on real issue at Zyro. Great for TDD!
+
+## Influencer insights
+
+Marketing team needs your help. Present a high-level overview of a DIY data analytics pipeline.
