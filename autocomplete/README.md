@@ -15,3 +15,31 @@ Imagine this is a long-term project that you're going to work on together with a
 The component should look something like this:
 
 ![Image of autocomplete field](autocomplete.png)
+
+You will need some data for autocomplete, so here's Zyro categories API: https://ai-qa-wizard-text-similarity-yls6dto53q-uc.a.run.app/inference
+
+Send a `POST` request with a JSON body
+
+```json
+{
+  "input": "flower",
+  "limit": 10
+}
+```
+
+and you should receive a JSON response:
+
+```json
+[
+  "Flower Club",
+  "Flower Shop",
+  "Flower Parade",
+  "Florist",
+  "Wholesale Florist",
+  "Flower School",
+  "Flower Illustrator",
+  "Flower and Plant Photographer",
+  "Flower Photographer",
+  "Holiday Decoration Store"
+]
+```
