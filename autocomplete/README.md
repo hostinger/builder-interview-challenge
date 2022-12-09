@@ -18,7 +18,7 @@ The component should look something like this:
 
 The task is vague on purpose. Dive as deep as you can, flex your Frontend knowledge, and note your decisions. We'll ask about them.
 
-You will need some data for autocomplete, so here's Zyro categories API: https://ai-qa-wizard-text-similarity-yls6dto53q-uc.a.run.app/inference
+You will need some data for autocomplete, so here's Zyro categories API: https://ai-qa-wizard-text-similarity-dev-yls6dto53q-uc.a.run.app/inference
 
 Send a `POST` request with a JSON body
 
