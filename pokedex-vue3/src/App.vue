@@ -1,20 +1,10 @@
 <template>
-	<div>
-		<h1 class="title">
-			Pokedex
-		</h1>
-		<pokemon-list />
-	</div>
+	<h1 class="title">Pokedex</h1>
+	<PokemonList />
 </template>
 
-<script>
-import PokemonList from "@/components/PokemonList.vue";
-
-export default {
-	components: {
-		PokemonList,
-	},
-};
+<script setup lang="ts">
+import PokemonList from "./components/PokemonList.vue";
 </script>
 
 <style>

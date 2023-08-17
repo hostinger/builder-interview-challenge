@@ -19,9 +19,9 @@
 	</div>
 </template>
 
-<script></script>
+<script setup lang="ts"></script>
 
-<style lang="scss" scoped>
+<style scoped>
 .list {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
@@ -62,12 +62,13 @@
 	background-color: #fa2356;
 	box-shadow: 0 4px 16px rgb(0 0 0 / 20%);
 	transition: background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
 
-	&:hover {
-		background-color: #d21d48;
-	}
-	&:active {
-		background-color: #fa2356;
-	}
+.star:hover {
+	background-color: #d21d48;
+}
+
+.star:active {
+	background-color: #fa2356;
 }
 </style>
